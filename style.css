@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@400;900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsla(212, 45%, 89%);
+}
+
+.container{
+    height: auto;
+    width: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.container .qr-image{
+    border-radius: 10px;
+}
+
+.container .container-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container .container-txt h2{
+    color:hsl(218, 44%, 22%) ;
+    padding: 20px 0px;
+}
+
+.container .container-txt p{
+    color: hsl(220, 15%, 55%) ;
+    padding: 0px 0px 20px 0px;
+}
+
